@@ -8,3 +8,5 @@ all=soup.find_all("div",{"class":"flex relative clearfix m-srp-card__container"}
 for items in all:
     print(items.find("div",{"class","m-srp-card__price"}).text)
     print(items.find("div",{"class","m-srp-card__summary__info"}).text)
+    print(items.find("div",{"class","m-srp-card__advertiser__name"}).text)
+    print()
