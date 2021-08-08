@@ -7,15 +7,25 @@ all=soup.find_all("div",{"class":"flex relative clearfix m-srp-card__container"}
 # print(all[0].find("div",{"class":"m-srp-card__price"}).text)
 for items in all:
     try:
-        print(items.find("div",{"class","m-srp-card__price"}).text)
+        price=(items.find("div",{"class","m-srp-card__price"}).text)
+        print(price)
     except:
         print(None)
+
     try:
-        print(items.find("div",{"class","m-srp-card__summary__info"}).text)
+        area=(items.find("div",{"class","m-srp-card__summary__info"}).text)
+        print(area)
     except:
         print(None)
+
+    try:
+        print(items.find("div",{"class","m-srp-card__area"}).text)
+    except:
+        print("Not Available")
+
     try:    
         print(items.find("div",{"class","m-srp-card__advertiser__name"}).text)
     except:
         print(None)
+
     print()
