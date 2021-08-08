@@ -1,31 +1,37 @@
 import requests
+import pandas
 from bs4 import BeautifulSoup
+
 req=requests.get("https://www.magicbricks.com/property-for-sale/residential-real-estate?&proptype=Multistorey-Apartment,Builder-Floor-Apartment,Penthouse,Studio-Apartment,Residential-House,Villa&cityName=Indore")
 c=req.content
 soup=BeautifulSoup(c,"html.parser")
 all=soup.find_all("div",{"class":"flex relative clearfix m-srp-card__container"})
-# print(all[0].find("div",{"class":"m-srp-card__price"}).text)
+
+prop_lst=[]
 for items in all:
+    dic={}
     try:
-        price=(items.find("div",{"class","m-srp-card__price"}).text)
-        print(price)
+        dic['Price']=items.find("div",{"class","m-srp-card__price"}).text
     except:
-        print(None)
+        dic['Price']=None
 
     try:
-        area=(items.find("div",{"class","m-srp-card__summary__info"}).text)
-        print(area)
+        dic['Area']=items.find("div",{"class","m-srp-card__summary__info"}).text
     except:
-        print(None)
+        dic['Area']=None
 
     try:
-        print(items.find("div",{"class","m-srp-card__area"}).text)
+        dic['Price per sqft']=items.find("div",{"class","m-srp-card__area"}).text
     except:
-        print("Not Available")
+        dic['Price per sqft']='Not Available'
 
     try:    
-        print(items.find("div",{"class","m-srp-card__advertiser__name"}).text)
+        dic['Builder\'s Name']=items.find("div",{"class","m-srp-card__advertiser__name"}).text
     except:
-        print(None)
+        dic['Builder\'s Name']=None
 
-    print()
+    prop_lst.append(dic)
+
+df=pandas.DataFrame(prop_lst)
+df.to_csv("Property.csv")
+
