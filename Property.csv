@@ -1,31 +1,31 @@
-,Price,Area,Price per sqft,Builder's Name
-0,₹ 1.01 Cr,2304 sqft,₹ 4400 per sqft,Sakshi Pachori
-1,₹ 62.6 Lac,1660 sqft,₹ 3768 per sqft,DCNPL Pvt. Ltd.
-2,₹ 17.7 Lac,936 sqft,₹ 1891 per sqft,Satya Developers Pvt Ltd
-3,₹ 2.75 Cr,5600 sqft,₹ 4911 per sqft,Apollo Creations Pvt. Ltd.
-4,₹ 37.6 Lac,1074 sqft,₹ 3500 per sqft,S S Infinitus
-5,₹ 32.2 Lac,996 sqft,₹ 3233 per sqft,Saify Construction Company
-6,₹ 92.4 Lac,2100 sqft,₹ 4400 per sqft,Sakshi Pachori
-7,₹ 40.6 Lac,1400 sqft,₹ 2900 per sqft,anurag m
-8,₹ 33.1 Lac,1035 sqft,₹ 3198 per sqft,Man Development
-9,₹ 1.62 Cr,3688 sqft,₹ 4400 per sqft,Sakshi Pachori
-10,₹ 30 Lac,1160 sqft,₹ 2586 per sqft,Sukar
-11,₹ 19.5 Lac,900 sqft,Not Available,Ashish Sharma
-12,₹ 28.2 Lac,284 sqft,Not Available,YASHPAL NAYAK
-13,₹ 77 Lac,1450 sqft,Not Available,SUNIL JAIN
-14,₹ 35 Lac,1087 sqft,Not Available,pankaj kushwaha
-15,₹ 47 Lac,1140 sqft,₹ 4123 per sqft,NILESH BANSAL
-16,₹ 88.5 Lac,1744 sqft,Not Available,Sunil Thakur
-17,₹ 20 Lac,850 sqft,₹ 2353 per sqft,Siddharth
-18,₹ 1.41 Cr,3140 sqft,Not Available,k s pawar
-19,₹ 32.3 Lac,1000 sqft,Not Available,Rohit
-20,₹ 16.5 Lac,740 sqft,Not Available,Vivek Chouhan
-21,₹ 40 Lac,1285 sqft,₹ 3113 per sqft,Pradeep Raghav
-22,₹ 80 Lac,2850 sqft,₹ 2807 per sqft,Hazri
-23,₹ 18 Lac,965 sqft,Not Available,Neetu Sharma
-24,₹ 60 Lac,1250 sqft,Not Available,Rahul Joseph
-25,₹ 45 Lac,900 sqft,Not Available,Sudhir Saxena
-26,₹ 3.51 Cr,4200 sqft,Not Available,Ravi Shah
-27,₹ 43.5 Lac,1705 sqft,Not Available,Pankaj Wagle
-28,₹ 51 Lac,1030 sqft,Not Available,B N Verma
-29,₹ 35 Lac,1040 sqft,₹ 3240 per sqft,Lalchand Nagdev
+,Price,Area,Price per sqft,Furnishing,Builder's Name
+0,₹ 17 Lac,895 sqft,₹ 1899 per sqft,Unfurnished,Satya Developers Pvt Ltd
+1,₹ 18.4 Lac,971 sqft,₹ 1895 per sqft,Unfurnished,Satya Developers Pvt Ltd
+2,₹ 90.7 Lac,2414 sqft,₹ 3758 per sqft,Unfurnished,DCNPL Pvt. Ltd.
+3,₹ 79.3 Lac,1982 sqft,₹ 4000 per sqft,Unfurnished,Apollo Creations Pvt. Ltd.
+4,₹ 1.39 Cr,2412 sqft,₹ 5762 per sqft,Unfurnished,S S Infinitus
+5,₹ 82 Lac,1587 sqft,₹ 5167 per sqft,Unfurnished,Narendra  Gorani
+6,₹ 38.5 Lac,986 sqft,₹ 3906 per sqft,Unfurnished,Saify Construction Company
+7,₹ 26.2 Lac,905 sqft,₹ 2900 per sqft,Unfurnished,anurag m
+8,₹ 33.1 Lac,1035 sqft,₹ 3198 per sqft,Unfurnished,Man Development
+9,₹ 92.4 Lac,2100 sqft,₹ 4400 per sqft,Unfurnished,Sakshi Pachori
+10,₹ 4.25 Cr,2500 sqft,Not Available,Furnished,Amor Realty Group
+11,₹ 34.5 Lac,980 sqft,₹ 3520 per sqft,Unfurnished,Ankur  Jain
+12,₹ 77 Lac,1450 sqft,Not Available,Semi-Furnished,SUNIL JAIN
+13,₹ 20 Lac,850 sqft,₹ 2353 per sqft,Unfurnished,Siddharth
+14,₹ 80 Lac,1250 sqft,Not Available,Furnished,Prashant Gupta prashant gupta
+15,₹ 35 Lac,1087 sqft,Not Available,Unfurnished,pankaj kushwaha
+16,₹ 51 Lac,1030 sqft,Not Available,Furnished,B N Verma
+17,₹ 28.2 Lac,284 sqft,Not Available,Unfurnished,YASHPAL NAYAK
+18,₹ 40 Lac,1285 sqft,₹ 3113 per sqft,Furnished,Pradeep Raghav
+19,₹ 98 Lac,800 sqft,Not Available,Semi-Furnished,Prathamesh
+20,₹ 60 Lac,1250 sqft,Not Available,Furnished,Rahul Joseph
+21,₹ 32.3 Lac,1000 sqft,Not Available,Semi-Furnished,Rohit
+22,₹ 3.51 Cr,4200 sqft,Not Available,Semi-Furnished,Ravi Shah
+23,₹ 80 Lac,2850 sqft,₹ 2807 per sqft,Semi-Furnished,Hazri
+24,₹ 35 Lac,1040 sqft,₹ 3240 per sqft,Semi-Furnished,Lalchand Nagdev
+25,₹ 71 Lac,1050 sqft,Not Available,Furnished,Prashant somani
+26,₹ 1.70 Cr,4800 sqft,₹ 3542 per sqft,Unfurnished,BALRAM KUMAR
+27,₹ 31.5 Lac,704 sqft,₹ 4474 per sqft,Unfurnished,Mahendra
+28,₹ 35 Lac,703 sqft,Not Available,Unfurnished,Victoria Urbane Oasis
+29,₹ 15 Lac,550 sqft,Not Available,Unfurnished,shreya bhagwat
