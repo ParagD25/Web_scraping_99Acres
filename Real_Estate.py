@@ -33,7 +33,8 @@ for items in all_data:
         for feat_title,feat_info in zip(col_data.find_all("div",{"class":"m-srp-card__summary__title"}),col_data.find_all("div",{"class":"m-srp-card__summary__info"})):
             if "furnishing" in feat_title.text:
                 dic['Furnishing']=feat_info.text
-
+            if "status" in feat_title.text:
+                dic['Status']=feat_info.text
     #Name Of Builder/Seller
     try:    
         dic['Builder\'s Name']=items.find("div",{"class","m-srp-card__advertiser__name"}).text
